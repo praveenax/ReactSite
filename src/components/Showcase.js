@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Panel from "react-bootstrap/lib/Panel";
-import ListGroupItem from "react-bootstrap/lib/ListGroupItem";
+//import ListGroupItem from "react-bootstrap/lib/ListGroupItem";
 import "../Showcase.css";
 
 class Showcase extends Component {
@@ -9,12 +9,12 @@ class Showcase extends Component {
     return "https://picsum.photos/200/300/?image=" + i;
   }
   render() {
-    const numbers = [1, 2, 3, 4, 5];
+    const numbers = [1, 2, 3, 4, 5,6,7,8,9,10,11,12,13,14,15];
 
-    const divStyle = {
-      margin: "40px",
-      border: "5px solid pink"
-    };
+//    const divStyle = {
+//      margin: "40px",
+//      border: "5px solid pink"
+//    };
     const listItems = numbers.map(number => (
       <div key={number} className="col-md-3">
         <Panel className="showpanel">
