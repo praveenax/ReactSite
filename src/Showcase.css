@@ -1,0 +1,25 @@
+.showpanel {
+    min-height: 200px;
+}
+
+.img_show {
+    width: 100%;
+    position: absolute;
+
+}
+
+.showpanel > .panel-body{
+    padding: 0px;
+}
+
+.img_holder {
+    position: relative;
+/*    background-image: url(https://picsum.photos/200/300/?random);*/
+    height: 170px;
+        overflow: hidden;
+}
+
+.img_holder > img{
+        width: 100%;
+        overflow: hidden;
+}

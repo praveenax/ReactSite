@@ -1,25 +1,25 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+//import {Navbar,Nav,NavItem,NavDropdown,MenuItem} from 'react-bootstrap/lib/NavbarHeader';
+
+import AppBar from "./components/AppBar";
+import SideMenu from "./components/SideMenu";
+import Showcase from "./components/Showcase";
 
 class App extends Component {
   render() {
-    return (
+      return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <AppBar />
+        <div className="col-md-12">
+          <div className="col-md-2">
+            <SideMenu />
+          </div>
+
+          <div className="col-md-10">
+            <Showcase />
+          </div>
+        </div>
       </div>
     );
   }
