@@ -9,11 +9,19 @@ import Navbar from "react-bootstrap/lib/Navbar";
 
 class AppBar extends Component {
   render() {
+      const styleFont = {
+          fontSize: '30px',
+          color:'#fff'
+      }
+      
+      const barStyle = {
+          background:'#3498db'
+      }
     return (
-      <Navbar className='navbar-fixed-top'>
+      <Navbar className='navbar-fixed-top' style={barStyle} >
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#home">Board XChange</a>
+            <a href="#home" style={styleFont}>Board XChange</a>
           </Navbar.Brand>
         </Navbar.Header>
         {/*<Nav>*/}
