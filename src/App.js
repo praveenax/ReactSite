@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import "./App.css";
+import ReactDOM from 'react-dom';
+//import { Router, Route, Link, browserHistory } from 'react-router'
+import { HashRouter,Switch, Route } from 'react-router-dom'
+
 //import {Navbar,Nav,NavItem,NavDropdown,MenuItem} from 'react-bootstrap/lib/NavbarHeader';
 
-import AppBar from "./components/AppBar";
-import SideMenu from "./components/SideMenu";
-import Showcase from "./components/Showcase";
+import Games from "./components/Games";
+import Events from "./components/Events";
+//import SideMenu from "./components/SideMenu";
+//import Showcase from "./components/Showcase";
 
 class App extends Component {
   render() {
@@ -16,18 +21,17 @@ class App extends Component {
         overflow: 'auto'
       }
       return (
-      <div className="App">
-        <AppBar />
-        <div className="col-md-12" style={divStyle}>
-          <div className="col-md-2">
-            <SideMenu />
-          </div>
-
-          <div className="col-md-10" style={showStyle}>
-            <Showcase />
-          </div>
-        </div>
+          <HashRouter>
+   <div className="App">
+         <main>
+    <Switch>
+      <Route exact path='/' component={Games}/>
+      <Route exact path='/test' component={Events}/>
+    </Switch>
+  </main>
       </div>
+  </HashRouter>
+     
     );
   }
 }
