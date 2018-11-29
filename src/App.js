@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 //import { Router, Route, Link, browserHistory } from 'react-router'
 import { HashRouter,Switch, Route } from 'react-router-dom'
 
@@ -13,13 +13,13 @@ import Events from "./components/Events";
 
 class App extends Component {
   render() {
-      const divStyle = {
-      marginTop: "5%"
-    }
-      const showStyle = {
-        height: '80vh',
-        overflow: 'auto'
-      }
+//      const divStyle = {
+//      marginTop: "5%"
+//    }
+//      const showStyle = {
+//        height: '80vh',
+//        overflow: 'auto'
+//      }
       return (
           <HashRouter>
    <div className="App">

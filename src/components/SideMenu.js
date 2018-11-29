@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import ListGroup from "react-bootstrap/lib/ListGroup";
 import ListGroupItem from "react-bootstrap/lib/ListGroupItem";
-import { HashRouter,Switch, Route,Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 class SideMenu extends Component {

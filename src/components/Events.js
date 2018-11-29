@@ -2,7 +2,7 @@ import React, { Component } from "react";
 //import "./App.css";
 //import {Navbar,Nav,NavItem,NavDropdown,MenuItem} from 'react-bootstrap/lib/NavbarHeader';
 
-import AppBar from "./AppBar";
+//import AppBar from "./AppBar";
 import SideMenu from "./SideMenu";
 import Showcase from "./Showcase";
 

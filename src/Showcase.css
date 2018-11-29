@@ -22,4 +22,5 @@
 .img_holder > img{
         width: 100%;
         overflow: hidden;
+        height: 80%;
 }
