@@ -12,7 +12,6 @@ class AppBar extends Component {
   render() {
       
       var v = new Values();
-      console.log(v.getName());
       
       const styleFont = {
           fontSize: '30px',

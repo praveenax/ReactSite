@@ -7,15 +7,6 @@ class Values {
 
 
 
-    constructor() {
-        // invokes the setter
-
-
-    }
-    getName() {
-        return this.name;
-    }
-
     getValue(param) {
         
 

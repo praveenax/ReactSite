@@ -15,12 +15,12 @@
 .img_holder {
     position: relative;
 /*    background-image: url(https://picsum.photos/200/300/?random);*/
-    height: 170px;
+    height: 150px;
         overflow: hidden;
 }
 
 .img_holder > img{
         width: 100%;
         overflow: hidden;
-        height: 80%;
+        height: 100%;
 }

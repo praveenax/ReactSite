@@ -23,7 +23,11 @@ class Games extends Component {
             <SideMenu />
           </div>
 
-          <div className="col-md-10" style={showStyle}>
+          <div className="col-md-7" style={showStyle}>
+            <Showcase />
+          </div>
+          
+          <div className="col-md-3" style={showStyle}>
             <Showcase />
           </div>
         </div>
